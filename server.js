@@ -10,8 +10,8 @@ app.get('/api',function(req,res){
     return res.send('Hello Welcome MEANS!!!');
 });
 
-app.listen(port, function(error) {
-    if(error){
+app.listen(port, function(err) {
+    if(err){
         console.log("error starting server");
     }
     console.log("server running on port",port);
